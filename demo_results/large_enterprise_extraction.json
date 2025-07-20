@@ -1,0 +1,170 @@
+{
+  "extracted_data": {
+    "divisions": [
+      {
+        "name": "Cloud Computing Division",
+        "head": {
+          "name": "Dr. Sarah Kim",
+          "experience_years": 20
+        },
+        "revenue": "$2.5B (Q4 2024)",
+        "employees": 8500,
+        "products": [
+          "CloudScale Platform",
+          "MetaData Analytics",
+          "ServerlessOps"
+        ]
+      },
+      {
+        "name": "Artificial Intelligence Division",
+        "head": {
+          "name": "Prof. Ahmed Hassan",
+          "experience_years": 18
+        },
+        "revenue": "$1.8B (Q4 2024)",
+        "employees": 6200,
+        "products": [
+          "AI Assistant Pro",
+          "Computer Vision API",
+          "NLP Toolkit"
+        ]
+      },
+      {
+        "name": "Cybersecurity Division",
+        "head": {
+          "name": "Lt. Col. Maria Santos",
+          "experience_years": 25
+        },
+        "revenue": "$1.2B (Q4 2024)",
+        "employees": 4800,
+        "products": [
+          "SecureShield Enterprise",
+          "ThreatDetect AI",
+          "CryptoVault"
+        ]
+      },
+      {
+        "name": "Mobile Technology Division",
+        "head": {
+          "name": "David Chen",
+          "experience_years": 15
+        },
+        "revenue": "$3.1B (Q4 2024)",
+        "employees": 12000,
+        "products": [
+          "MetaPhone OS",
+          "AppDeveloper Studio",
+          "Mobile Analytics"
+        ]
+      },
+      {
+        "name": "Research and Development Division",
+        "head": {
+          "name": "Dr. Elena Volkov",
+          "experience_years": 22
+        },
+        "revenue": "$800M annually",
+        "employees": 3500,
+        "products": [
+          "Quantum Computing",
+          "Biotech Integration",
+          "Space Technology"
+        ]
+      }
+    ],
+    "founding_info": {
+      "founders": [
+        "Jennifer Thompson",
+        "Marcus Lee"
+      ],
+      "year": "1995"
+    },
+    "global_offices": {
+      "major_offices": [
+        "London (UK)",
+        "Tokyo (Japan)",
+        "Bangalore (India)",
+        "S\u00e3o Paulo (Brazil)"
+      ],
+      "headquarters": "San Francisco",
+      "total_employees": "34000"
+    },
+    "company_name": "MetaGlobal Corporation",
+    "partnerships": [
+      {
+        "partner": "Microsoft",
+        "type": "cloud infrastructure partnership",
+        "value": "$500M"
+      },
+      {
+        "partner": "Amazon",
+        "type": "Joint AI research initiative",
+        "value": "$300M investment"
+      },
+      {
+        "partner": "IBM",
+        "type": "Quantum computing collaboration",
+        "value": "3-year program"
+      },
+      {
+        "partner": "Tesla",
+        "type": "Autonomous vehicle AI partnership",
+        "value": ""
+      },
+      {
+        "partner": "Stanford University",
+        "type": "Research collaboration",
+        "value": "$50M endowment"
+      }
+    ],
+    "acquisitions": [
+      {
+        "company": "DataFlow Analytics",
+        "date": "Q1 2024",
+        "value": "$850M"
+      },
+      {
+        "company": "SecureNet Solutions",
+        "date": "Q3 2024",
+        "value": "$1.2B"
+      },
+      {
+        "company": "AIStudio Labs",
+        "date": "Q4 2024",
+        "value": "$650M"
+      }
+    ],
+    "financial_performance": {
+      "total_revenue": "$8.6B",
+      "net_income": "$1.9B",
+      "market_cap": "$45B",
+      "growth_rate": "Total Revenue Growth"
+    }
+  },
+  "confidence_scores": {
+    "divisions": 0.9,
+    "founding_info.founders": 0.9,
+    "global_offices.major_offices": 0.9,
+    "company_name": 0.95,
+    "partnerships": 0.9,
+    "acquisitions": 0.9,
+    "financial_performance.total_revenue": 0.95,
+    "financial_performance.net_income": 0.95,
+    "financial_performance.market_cap": 0.95,
+    "financial_performance.growth_rate": 0.95,
+    "global_offices.headquarters": 0.95,
+    "founding_info.year": 0.95,
+    "global_offices.total_employees": 0.86
+  },
+  "flagged_for_review": [],
+  "skeleton_nodes": 6,
+  "processing_metadata": {
+    "schema_paths_count": 13,
+    "skeleton_nodes": 6,
+    "total_chunks": 13,
+    "processing_time": 1753027670.192797
+  },
+  "validation_errors": [
+    "Schema validation error: '34000' is not of type 'integer'"
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "extracted_data": {
+    "authors": [
+      {
+        "name": "Dr. Alice Chen",
+        "affiliation": "Stanford University",
+        "department": "Department of Computer Science",
+        "experience_years": 10
+      },
+      {
+        "name": "Prof. Bob Rodriguez",
+        "affiliation": "MIT",
+        "department": "AI Lab",
+        "experience_years": 15,
+        "specialization": "deep learning"
+      },
+      {
+        "name": "Dr. Carol Wang",
+        "affiliation": "Google Research",
+        "experience_years": 8
+      }
+    ],
+    "methodology": {
+      "architecture_components": [
+        {
+          "component_name": "Vision Encoder",
+          "description": "ResNet-50 backbone with attention pooling"
+        },
+        {
+          "component_name": "Text Encoder",
+          "description": "BERT-large with custom tokenization"
+        },
+        {
+          "component_name": "Audio Encoder",
+          "description": "Wav2Vec2 with temporal convolutions"
+        },
+        {
+          "component_name": "Fusion Module",
+          "description": "Cross-modal attention with learnable position embeddings"
+        }
+      ],
+      "approach": "Our"
+    },
+    "results": {
+      "benchmarks": [
+        {
+          "dataset": "COCO Captions",
+          "accuracy": 95.2,
+          "previous_sota": 92.1
+        },
+        {
+          "dataset": "VQA 2.0",
+          "accuracy": 78.9,
+          "previous_sota": 76.3
+        },
+        {
+          "dataset": "AudioSet Classification",
+          "accuracy": 85.7,
+          "previous_sota": 83.2
+        }
+      ]
+    },
+    "title": "Advanced Neural Network Architectures",
+    "funding": [
+      {
+        "source": "NSF Grant",
+        "amount": 500000,
+        "duration": "3 years"
+      },
+      {
+        "source": "Google Research Grant",
+        "amount": 200000,
+        "duration": ""
+      },
+      {
+        "source": "Stanford HAI Initiative",
+        "amount": 100000,
+        "duration": ""
+      }
+    ],
+    "publication_info": {
+      "conference": "NeurIPS",
+      "submission_date": "May",
+      "acceptance_date": "September"
+    }
+  },
+  "confidence_scores": {
+    "authors": 0.9,
+    "methodology.architecture_components": 0.9,
+    "results.benchmarks": 0.9,
+    "title": 0.95,
+    "funding": 0.9,
+    "methodology.approach": 0.95,
+    "publication_info.conference": 0.95,
+    "publication_info.submission_date": 0.95,
+    "publication_info.acceptance_date": 0.95
+  },
+  "flagged_for_review": [],
+  "skeleton_nodes": 5,
+  "processing_metadata": {
+    "schema_paths_count": 9,
+    "skeleton_nodes": 5,
+    "total_chunks": 7,
+    "processing_time": 1753027657.8789089
+  },
+  "validation_errors": []
+}

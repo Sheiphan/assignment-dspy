@@ -1,0 +1,29 @@
+# Copy this file to .env and customize the values
+# Environment Configuration for Data Transformation System
+
+# OpenAI API Configuration (Required for full functionality)
+OPENAI_API_KEY=your_openai_api_key_here
+
+# Optional: Use different models
+OPENAI_LLM_MODEL=gpt-4
+OPENAI_EMBEDDING_MODEL=text-embedding-3-small
+
+# System Configuration
+CONFIDENCE_THRESHOLD=0.7
+MAX_CHUNK_SIZE=1000
+CHUNK_OVERLAP=100
+VECTOR_SEARCH_TOP_K=5
+
+# System Behavior
+LOG_LEVEL=INFO
+SAVE_RESULTS=true
+OUTPUT_DIRECTORY=./results
+
+# Performance Tuning
+MAX_CONCURRENT_EXTRACTIONS=5
+CACHE_EMBEDDINGS=true
+
+# Instructions:
+# 1. Copy this file: cp env_template.txt .env
+# 2. Replace 'your_openai_api_key_here' with your actual OpenAI API key
+# 3. Adjust other values as needed for your use case 

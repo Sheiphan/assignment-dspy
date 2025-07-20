@@ -1,0 +1,123 @@
+{
+  "extracted_data": {
+    "divisions": [
+      {
+        "name": "Quantum Computing Division",
+        "head": {
+          "name": "Dr. Evelyn Reed",
+          "experience_years": 15
+        },
+        "revenue": "$50 million",
+        "employees": 150,
+        "products": [
+          "Q-Processor",
+          "QuantumCloud"
+        ]
+      },
+      {
+        "name": "AI Solutions Division",
+        "head": {
+          "name": "David Chen",
+          "experience_years": 12
+        },
+        "revenue": "$35 million",
+        "employees": 120,
+        "products": [
+          "Synapse AI",
+          "Visionary AI"
+        ]
+      },
+      {
+        "name": "Advanced Materials Division",
+        "head": {
+          "name": "Dr. Maria Petrova",
+          "experience_years": 20
+        },
+        "revenue": "$25 million",
+        "employees": 80,
+        "products": [
+          "GrapheneMatrix",
+          "AeroGel X"
+        ]
+      }
+    ],
+    "founding_info": {
+      "founders": [
+        "Dr. Evelyn Reed",
+        "Dr. Kenji Tanaka"
+      ],
+      "year": "2012"
+    },
+    "global_offices": {
+      "major_offices": [
+        "Boston, Massachusetts",
+        "Zurich, Switzerland",
+        "Singapore"
+      ],
+      "headquarters": "Boston",
+      "total_employees": "350"
+    },
+    "company_name": "QuantumLeap Dynamics",
+    "partnerships": [
+      {
+        "partner": "Massachusetts Institute of Technology (MIT)",
+        "type": "joint research initiative",
+        "value": "$10 million"
+      },
+      {
+        "partner": "NVIDIA",
+        "type": "strategic alliance",
+        "value": "early access to next-generation hardware"
+      },
+      {
+        "partner": "Rolls-Royce",
+        "type": "partnership",
+        "value": "testing and integrating advanced materials"
+      }
+    ],
+    "acquisitions": [
+      {
+        "company": "Photonics Innovations",
+        "date": "Q3 2023",
+        "value": "$75 million"
+      },
+      {
+        "company": "AI Weaver",
+        "date": "Q1 2024",
+        "value": "$50 million"
+      }
+    ],
+    "financial_performance": {
+      "total_revenue": "110 million",
+      "net_income": "20 million",
+      "market_cap": "$2 billion",
+      "growth_rate": "30%"
+    }
+  },
+  "confidence_scores": {
+    "divisions": 0.9,
+    "founding_info.founders": 0.9,
+    "global_offices.major_offices": 0.9,
+    "company_name": 0.95,
+    "partnerships": 0.9,
+    "acquisitions": 0.9,
+    "financial_performance.total_revenue": 0.95,
+    "financial_performance.net_income": 0.95,
+    "financial_performance.market_cap": 0.95,
+    "financial_performance.growth_rate": 0.95,
+    "global_offices.headquarters": 0.95,
+    "founding_info.year": 0.95,
+    "global_offices.total_employees": 0.95
+  },
+  "flagged_for_review": [],
+  "skeleton_nodes": 6,
+  "processing_metadata": {
+    "schema_paths_count": 13,
+    "skeleton_nodes": 6,
+    "total_chunks": 6,
+    "processing_time": 1753027677.740437
+  },
+  "validation_errors": [
+    "Schema validation error: '350' is not of type 'integer'"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "extracted_data": {
+    "company_name": "TechCorp Inc",
+    "leadership": [
+      {
+        "name": "John Smith",
+        "title": "CEO",
+        "experience_years": 15
+      },
+      {
+        "name": "Sarah Johnson",
+        "title": "CTO",
+        "experience_years": 12
+      },
+      {
+        "name": "Michael Brown",
+        "title": "CFO",
+        "experience_years": 10
+      }
+    ],
+    "location": {
+      "city": "San Francisco",
+      "state": "California",
+      "address": "Innovation Drive"
+    }
+  },
+  "confidence_scores": {
+    "company_name": 0.95,
+    "leadership": 0.9,
+    "location.city": 0.95,
+    "location.state": 0.95,
+    "location.address": 0.95
+  },
+  "flagged_for_review": [],
+  "skeleton_nodes": 2,
+  "processing_metadata": {
+    "schema_paths_count": 5,
+    "skeleton_nodes": 2,
+    "total_chunks": 5,
+    "processing_time": 1753027651.075943
+  },
+  "validation_errors": []
+}
