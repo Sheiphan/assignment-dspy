@@ -241,39 +241,3 @@ The prototype includes basic validation, but for production use:
 2. **Create test datasets** with ground truth data
 3. **Implement A/B testing** for different approaches
 4. **Monitor drift** in extraction quality over time
-
-## 📚 Further Reading
-
-### Recommended Papers
-- "DSPy: Programming—not prompting—Foundation Models" (2023)
-- "JSONFormer: A Bulletproof Way to Generate Structured JSON from Language Models" (2023)
-- "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks" (2020)
-
-### Framework Documentation
-- [LangChain Documentation](https://docs.langchain.com/)
-- [DSPy GitHub](https://github.com/stanfordnlp/dspy)
-- [Guardrails AI](https://docs.guardrailsai.com/)
-- [Haystack Documentation](https://docs.haystack.deepset.ai/)
-
-## 🤝 Contributing
-
-This framework is designed to be extensible. Key areas for enhancement:
-
-1. **Additional LLM providers** (Anthropic, Cohere, local models)
-2. **More sophisticated confidence estimation**
-3. **Advanced RAG strategies** (hybrid search, reranking)
-4. **Domain-specific validators**
-5. **Performance optimizations**
-
-## 📋 Next Steps
-
-Based on your specific requirements:
-
-1. **For immediate prototyping**: Start with the basic pipeline + LangChain
-2. **For production deployment**: Follow the phased roadmap in the decision matrix
-3. **For research/experimentation**: Use DSPy with multiple model comparisons
-4. **For enterprise use**: Consider Haystack with full infrastructure setup
-
----
-
-*This repository provides a foundation for building robust text-to-structured-data pipelines. Adapt the components based on your specific domain, performance requirements, and constraints.* 
