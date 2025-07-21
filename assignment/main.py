@@ -39,6 +39,8 @@ import nltk
 from nltk.tokenize import sent_tokenize
 import math
 
+from assignment.config import config
+
 # Download required NLTK data
 try:
     nltk.data.find('tokenizers/punkt')
@@ -102,7 +104,6 @@ class SemanticChunker:
     """Implements recursive semantic chunking strategy"""
     
     def __init__(self, max_chunk_size: int = 1000, overlap_size: int = 100):
-        from .config import config
         self.max_chunk_size = config.max_chunk_size
         self.overlap_size = config.chunk_overlap
         self.tokenizer = tiktoken.get_encoding("cl100k_base")
@@ -190,8 +191,6 @@ class VectorIndex:
     """FAISS-based vector index for chunk retrieval"""
     
     def __init__(self, embedding_dim: int = 1536):
-        from .config import config
-        
         self.embedding_dim = embedding_dim
         self.index = faiss.IndexFlatIP(embedding_dim)  # Inner product for cosine similarity
         self.chunks: List[DocumentChunk] = []
@@ -235,7 +234,6 @@ class VectorIndex:
             return embedding
         
         try:
-            from .config import config
             response = self.client.embeddings.create(
                 input=text,
                 model=config.openai_embedding_model
@@ -424,7 +422,6 @@ class ExtractionPipeline:
         
         # Configure LLM with API key
         import os
-        from .config import config
         
         # Set OpenAI API key for DSPy
         if config.openai_api_key:
@@ -924,7 +921,6 @@ class DataTransformationSystem:
     """Main system orchestrator"""
     
     def __init__(self):
-        from .config import config
         self.config = config
         self.chunker = SemanticChunker()
         self.vector_index = VectorIndex()
@@ -973,7 +969,7 @@ class DataTransformationSystem:
 
 async def main():
     """Main execution function"""
-    from .config import config
+    from config import config
     # Sample document and schema for demonstration
     sample_document = """
     TechCorp Inc is a leading technology company founded in 2018 and headquartered in San Francisco, California. 

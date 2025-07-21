@@ -5,11 +5,11 @@
             "name": "Debug main.py",
             "type": "debugpy",
             "request": "launch",
-            "program": "${workspaceFolder}/main.py",
+            "program": "${workspaceFolder}/assignment/main.py",
             "console": "integratedTerminal",
-            "cwd": "${workspaceFolder}",
+            "cwd": "${workspaceFolder}/assignment",
             "env": {
-                "PYTHONPATH": "${workspaceFolder}"
+                "PYTHONPATH": "${workspaceFolder}/assignment"
             },
             "args": [],
             "justMyCode": true,
@@ -20,11 +20,11 @@
             "name": "Debug demo.py",
             "type": "debugpy",
             "request": "launch",
-            "program": "${workspaceFolder}/demo.py",
+            "program": "${workspaceFolder}/assignment/demo.py",
             "console": "integratedTerminal",
-            "cwd": "${workspaceFolder}",
+            "cwd": "${workspaceFolder}/assignment",
             "env": {
-                "PYTHONPATH": "${workspaceFolder}"
+                "PYTHONPATH": "${workspaceFolder}/assignment"
             },
             "args": [],
             "justMyCode": true,
@@ -35,17 +35,17 @@
             "name": "Debug main.py (with API)",
             "type": "debugpy",
             "request": "launch",
-            "program": "${workspaceFolder}/main.py",
+            "program": "${workspaceFolder}/assignment/main.py",
             "console": "integratedTerminal",
-            "cwd": "${workspaceFolder}",
+            "cwd": "${workspaceFolder}/assignment",
             "env": {
-                "PYTHONPATH": "${workspaceFolder}",
+                "PYTHONPATH": "${workspaceFolder}/assignment",
                 "OPENAI_API_KEY": "${env:OPENAI_API_KEY}"
             },
             "args": [],
             "justMyCode": false,
             "stopOnEntry": false,
-            "python": "${workspaceFolder}/.venv/bin/python"
+            "python": "${workspaceFolder}/assignment/.venv/bin/python"
         }
     ]
 } 

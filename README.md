@@ -8,8 +8,6 @@ This repository contains a comprehensive analysis and implementation guide for b
 
 ### Core Documents
 
-- **`data_transformation_pipeline_design.md`** - Comprehensive design document with framework analysis, architecture patterns, and implementation strategies
-- **`framework_decision_matrix.md`** - Practical decision framework to choose optimal approaches based on specific requirements
 - **`main.py`** - Complete implementation of the modular data transformation system
 - **`demo.py`** - Comprehensive demo showcasing different document types and schemas
 - **`config.py`** - Configuration management for the system
@@ -20,9 +18,6 @@ This repository contains a comprehensive analysis and implementation guide for b
 ### 1. Set Up Environment
 
 ```bash
-# Clone and navigate to directory
-cd assignment
-
 # Install dependencies using uv (recommended) or pip
 uv sync
 # or
@@ -52,13 +47,6 @@ uv run python -m assignment.main
 # Or run the comprehensive demo
 uv run python -m assignment.demo
 ```
-
-### 3. Use the Decision Framework
-
-1. Read `framework_decision_matrix.md`
-2. Answer the requirements assessment questions
-3. Use the decision matrix to select your optimal stack
-4. Follow the implementation roadmap
 
 ## 📊 Key Deliverables
 

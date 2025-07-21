@@ -43,36 +43,31 @@
     ],
     "founding_info": {
       "founders": [
-        "Dr. Evelyn Reed",
-        "Dr. Kenji Tanaka"
+        "Dr. Evelyn Reed"
       ],
-      "year": "2012"
+      "year": "null"
     },
     "global_offices": {
-      "major_offices": [
-        "Boston, Massachusetts",
-        "Zurich, Switzerland",
-        "Singapore"
-      ],
-      "headquarters": "Boston",
+      "major_offices": [],
+      "headquarters": "null",
       "total_employees": "350"
     },
     "company_name": "QuantumLeap Dynamics",
     "partnerships": [
       {
-        "partner": "Massachusetts Institute of Technology (MIT)",
+        "partner": "MIT",
         "type": "joint research initiative",
         "value": "$10 million"
       },
       {
         "partner": "NVIDIA",
         "type": "strategic alliance",
-        "value": "early access to next-generation hardware"
+        "value": ""
       },
       {
         "partner": "Rolls-Royce",
-        "type": "partnership",
-        "value": "testing and integrating advanced materials"
+        "type": "testing and integration partnership",
+        "value": ""
       }
     ],
     "acquisitions": [
@@ -105,17 +100,20 @@
     "financial_performance.net_income": 0.95,
     "financial_performance.market_cap": 0.95,
     "financial_performance.growth_rate": 0.95,
-    "global_offices.headquarters": 0.95,
-    "founding_info.year": 0.95,
-    "global_offices.total_employees": 0.95
+    "global_offices.headquarters": 0.44,
+    "founding_info.year": 0.16,
+    "global_offices.total_employees": 0.8
   },
-  "flagged_for_review": [],
+  "flagged_for_review": [
+    "global_offices.headquarters",
+    "founding_info.year"
+  ],
   "skeleton_nodes": 6,
   "processing_metadata": {
     "schema_paths_count": 13,
     "skeleton_nodes": 6,
-    "total_chunks": 6,
-    "processing_time": 1753131653.972667
+    "total_chunks": 5,
+    "processing_time": 1753107479.95121
   },
   "validation_errors": [
     "Schema validation error: '350' is not of type 'integer'"

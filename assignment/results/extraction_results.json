@@ -1,0 +1,100 @@
+{
+    "data": {
+        "company_name": "TechCorp Inc",
+        "leadership": [
+            {
+                "name": "John Smith",
+                "title": "CEO",
+                "experience_years": 15
+            },
+            {
+                "name": "Sarah Johnson",
+                "title": "CTO",
+                "experience_years": 12
+            },
+            {
+                "name": "Michael Brown",
+                "title": "CFO",
+                "experience_years": 10
+            }
+        ],
+        "products": [
+            {
+                "name": "AI Analytics Platform",
+                "description": "Machine learning analytics for business intelligence"
+            },
+            {
+                "name": "Natural Language Processing API",
+                "description": "Text analysis and understanding"
+            },
+            {
+                "name": "Computer Vision SDK",
+                "description": "Image and video analysis tools"
+            }
+        ],
+        "location": {
+            "city": "San Francisco",
+            "state": "California",
+            "address": "Innovation Drive"
+        },
+        "company_details": {
+            "employee_count": "500-750 employees",
+            "revenue": "ARR",
+            "industry": "Technology"
+        },
+        "contact": {
+            "email": "info@techcorp.com",
+            "phone": "+1-555-0123"
+        }
+    },
+    "skeleton": [
+        {
+            "path": "company_name",
+            "value": "- Company Name: TechCorp Inc",
+            "confidence": 0.8,
+            "source_chunks": [
+                "chunk_0"
+            ],
+            "reasoning": ""
+        },
+        {
+            "path": "leadership",
+            "value": "- Leadership Team:\n  - CEO: John Smith\n    - Experience: 15 years\n    - Previous Position: Former VP at Google\n  - CTO: Sarah Johnson\n    - Experience: 12 years\n    - Background: AI researcher\n  - CFO: Michael Brown\n    - Experience: 10 years\n    - Industry: Fintech",
+            "confidence": 0.8,
+            "source_chunks": [
+                "chunk_0"
+            ],
+            "reasoning": ""
+        },
+        {
+            "path": "products",
+            "value": "- Products:\n  1. AI Analytics Platform\n     - Description: Machine learning analytics for business intelligence\n  2. Natural Language Processing API\n     - Description: Text analysis and understanding\n  3. Computer Vision SDK\n     - Description: Image and video analysis tools",
+            "confidence": 0.8,
+            "source_chunks": [
+                "chunk_0"
+            ],
+            "reasoning": ""
+        }
+    ],
+    "confidence_scores": {
+        "company_name": 0.95,
+        "leadership": 0.9,
+        "products": 0.9,
+        "location.city": 0.95,
+        "location.state": 0.95,
+        "location.address": 0.95,
+        "company_details.employee_count": 0.95,
+        "company_details.revenue": 0.95,
+        "company_details.industry": 0.95,
+        "contact.email": 0.95,
+        "contact.phone": 0.93
+    },
+    "flagged_for_review": [],
+    "processing_metadata": {
+        "schema_paths_count": 11,
+        "skeleton_nodes": 3,
+        "total_chunks": 1,
+        "processing_time": 1753101188.387634
+    },
+    "validation_errors": []
+}

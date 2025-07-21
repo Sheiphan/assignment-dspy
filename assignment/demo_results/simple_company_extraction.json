@@ -63,13 +63,9 @@
           "name": "Dr. Elena Volkov",
           "experience_years": 22
         },
-        "revenue": "$800M annually",
+        "revenue": null,
         "employees": 3500,
-        "products": [
-          "Quantum Computing",
-          "Biotech Integration",
-          "Space Technology"
-        ]
+        "products": []
       }
     ],
     "founding_info": {
@@ -136,9 +132,9 @@
     ],
     "financial_performance": {
       "total_revenue": "$8.6B",
-      "net_income": "$1.9B",
-      "market_cap": "$45B",
-      "growth_rate": "Total Revenue Growth"
+      "net_income": "null",
+      "market_cap": "null",
+      "growth_rate": "null"
     }
   },
   "confidence_scores": {
@@ -148,21 +144,25 @@
     "company_name": 0.95,
     "partnerships": 0.9,
     "acquisitions": 0.9,
-    "financial_performance.total_revenue": 0.95,
-    "financial_performance.net_income": 0.95,
-    "financial_performance.market_cap": 0.95,
-    "financial_performance.growth_rate": 0.95,
+    "financial_performance.total_revenue": 0.72,
+    "financial_performance.net_income": 0.42,
+    "financial_performance.market_cap": 0.41,
+    "financial_performance.growth_rate": 0.36,
     "global_offices.headquarters": 0.95,
     "founding_info.year": 0.95,
     "global_offices.total_employees": 0.82
   },
-  "flagged_for_review": [],
+  "flagged_for_review": [
+    "financial_performance.net_income",
+    "financial_performance.market_cap",
+    "financial_performance.growth_rate"
+  ],
   "skeleton_nodes": 6,
   "processing_metadata": {
     "schema_paths_count": 13,
     "skeleton_nodes": 6,
-    "total_chunks": 13,
-    "processing_time": 1753131644.5896409
+    "total_chunks": 12,
+    "processing_time": 1753107413.4073012
   },
   "validation_errors": [
     "Schema validation error: '34000' is not of type 'integer'"
